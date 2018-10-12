@@ -11,10 +11,12 @@ public class Lab1 {
         Scanner in= new Scanner(System.in);
         System.out.println("Guess my hidden number!!");
         int y = in.nextInt();
+        int guess=1;
         while(y != x){
             System.out.println("Sorry "+name+ ":( Please Guess Again!");
             y = in.nextInt();
+            guess++;
         }
-        System.out.println("Congrats you're a great guesser!!!");
+        System.out.println("Congrats you're a great guesser!!! You got the right answer in "+guess +" guesses!!");
     }
 }
