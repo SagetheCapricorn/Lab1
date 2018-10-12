@@ -16,6 +16,7 @@ public class ComputerGuesses {
             double w =Math.random();
 
             while (!y.equals("yes")) {
+                x = (int) (w*(max-min)+min);
                 if (y.equals("higher")) {
                     System.out.println("Is your number" + x + "?");
                     y = in.nextLine();
@@ -29,7 +30,7 @@ public class ComputerGuesses {
 
                 }
                 w =Math.random();
-                x = (int) (w*(max-min)+min);
+
 
             }
             if (y.equals ("yes")){
