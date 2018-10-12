@@ -15,12 +15,12 @@ public class ComputerGuesses {
                 if (y.equals("higher")) {
                     x = (int) (Math.random() * (51 + 5));
                     System.out.println("Is your number" + x + "?");
-                    String y = in.nextLine();
+                    y = in.nextLine();
                 }
                 if (y.equals ("lower")) {
                         x = (int) (Math.random() * (51 - 5));
                         System.out.println("Is your number" + x + "?");
-                    String y = in.nextLine();
+                     y = in.nextLine();
 
                 }
 
